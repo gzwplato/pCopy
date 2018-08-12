@@ -13,7 +13,7 @@ Yet another alternative to Windows copy, xcopy, and robocopy
 	  h|?  List options and how to use them.
 	  i    Install on PATH in C:\Windows (run as Admin).
 	  l    List files without copying.
-	  q    Don''t display filenames during copy.
+	  q    Don't display filenames during copy.
 	  s    Search subdirectories.
 	  u    Uninstall from PATH in C:\Windows (run as Admin).
 	  v    Display version information.
