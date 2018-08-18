@@ -7,6 +7,18 @@
 
 Yet another alternative to Windows copy, xcopy, and robocopy
 
+## Why pCopy?
+
+Windows copy won't create a folder if it doesn't already exist.
+  
+Windows xcopy won't copy an individual file without prompting if file or directory. 
+
+	Unless you do: echo f | xcopy /f /y srcfile destfile)
+ 
+Windows robocopy is best suited to copy entire directories, and is too complex for a simple copy.
+ 
+pCopy resolves the above issues.
+
 ## Help
 	pcopy [-options|/options] [@list|source] target
 	  a    Copy attributes. Default is Y.
